@@ -14,6 +14,6 @@ public class EmployeeDto {
     private String name;
     private LocalDate dateOfJoining;
     // json property will tell jackson that we want this vairable name as isActive only not active
-    @JsonProperty("isActive")
-    private boolean isActive;
+//    @JsonProperty("isActive")
+    private boolean active;
 }

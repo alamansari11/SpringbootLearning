@@ -20,5 +20,5 @@ public class EmployeeEntity {
     private Long id;
     private String name;
     private LocalDate dateOfJoining;
-    private boolean isActive;
+    private boolean active;
 }
