@@ -29,3 +29,9 @@ src/
 
 for jpa database only provide 
 the path not the extension with it 
+
+
+Dependency Injection (DI):
+
+In DI, objects are not responsible for instantiating their dependencies. Instead, dependencies are "injected" into the object by an external framework (e.g., Spring).
+In your example, PostFeignClient is injected into PostService by the Spring Framework
